@@ -1,4 +1,4 @@
-/*
+/* Assignment from Pooja Pandey
 
 Objective:
 Practice using the .length property by calculating the length of
@@ -25,6 +25,26 @@ let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
+//Predefined strings
+let stringone = "Coding Bootcamp";
+let stringtwo = "JavaScript";
+let stringthree = "";
+
+// Your task: Assign the length of each string to the corresponding variable
+let lengthone;   // Length of stringOne
+let lengthtwo;   // Length of stringTwo
+let lengththree; // Length of stringThree
+
+// Calculate and assign the lengths using the .length property
+lengthone = stringOne.length;    // Length of stringOne
+lengthtwo = stringTwo.length;    // Length of stringTwo
+lengththree = stringThree.length; // Length of stringThree
+
+// Print the results 
+console.log("Length of stringOne:", lengthone);   // Output: 15
+console.log("Length of stringTwo:", lengthtwo);   // Output: 10
+console.log("Length of stringThree:", lengththree); // Output: 0
+
 
 
 
